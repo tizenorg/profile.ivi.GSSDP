@@ -80,7 +80,6 @@ rm -rf %{buildroot}
 %defattr(-,root,root,-)
 # >> files
 %doc AUTHORS COPYING
-#%dir %{_datadir}/gssdp
 %{_libdir}/*.so.*
 # << files
 
