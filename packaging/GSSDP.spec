@@ -13,7 +13,6 @@ Group:      System/Libraries
 License:    LGPLv2+
 URL:        http://www.gupnp.org
 Source0:    http://download.gnome.org/sources/%{name}/0.12.1/%{name}-%{version}.tar.bz2
-Source100:  gssdp.yaml
 Requires:   dbus
 Requires:   libsoup2.4
 Requires(post): /sbin/ldconfig
