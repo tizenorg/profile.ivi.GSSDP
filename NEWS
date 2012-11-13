@@ -1,3 +1,32 @@
+0.13.1
+======
+- Run introspection in make distcheck.
+- Don't fail configure if vapigen could not be found.
+
+Bugs fixed in this release:
+ - https://bugzilla.gnome.org/show_bug.cgi?id=686039
+
+All contributors to this release:
+
+Jens Georg <mail@jensge.org>
+
+0.13.0
+======
+
+Start of a new unstable cycle
+
+- Add/update license headers.
+- Fix pkg-config files to not leak libraries.
+- Add pkg-config name to GIR.
+
+All contributors to this release:
+
+Andreas Henriksson <andreas@fatal.se>
+Jens Georg <mail@jensge.org>
+
+Bugs addressed:
+ - https://bugzilla.gnome.org/show_bug.cgi?id=685477
+
 0.12.2.1
 ========
 - Add missing gssdp-1.0.deps file to tarball

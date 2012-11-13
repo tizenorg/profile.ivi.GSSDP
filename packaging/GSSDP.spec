@@ -7,12 +7,12 @@
 
 Name:       gssdp
 Summary:    GSSDP implements resource discovery and announcement over SSDP
-Version:    0.12.1
+Version:    0.13.1
 Release:    1
 Group:      System/Libraries
 License:    LGPLv2+
 URL:        http://www.gupnp.org
-Source0:    http://download.gnome.org/sources/%{name}/0.12.1/%{name}-%{version}.tar.bz2
+Source0:    http://download.gnome.org/sources/%{name}/0.13/%{name}-%{version}.tar.bz2
 Requires:   dbus
 Requires:   libsoup2.4
 Requires(post): /sbin/ldconfig
