@@ -1,6 +1,6 @@
 AC_PREREQ([2.64])
 AC_INIT([gssdp],
-        [0.13.1],
+        [0.14.2],
         [http://bugzilla.gnome.org/enter_bug.cgi?product=gupnp&component=gssdp],
         [gssdp],
         [http://www.gupnp.org/])
@@ -22,9 +22,9 @@ AC_HEADER_STDC
 LT_PREREQ([2.2])
 LT_INIT
 
-PKG_CHECK_MODULES(LIBGSSDP, glib-2.0 >= 2.22 \
-                            gobject-2.0 >= 2.22 \
-                            gio-2.0 >= 2.22 \
+PKG_CHECK_MODULES(LIBGSSDP, glib-2.0 >= 2.32 \
+                            gobject-2.0 >= 2.32 \
+                            gio-2.0 >= 2.32 \
                             libsoup-2.4 >= 2.26.1)
 
 LIBGTK_REQUIRED=2.12.0
@@ -69,8 +69,14 @@ AC_ARG_ENABLE(debug,
 	[  --enable-debug          enable debugging],,
         enable_debug=no)
 if test "x$enable_debug" = "xyes"; then
-        CFLAGS="$CFLAGS -g -Wall -Werror"
+        CFLAGS="$CFLAGS -g -Wall"
 fi
+
+AC_ARG_ENABLE([strict-c],
+              AS_HELP_STRING([--enable-strict-c],[Error out on warnings]),,
+              [enable_strict_c=no])
+AS_IF([test "x$[]enable_strict_c" = "xyes"],
+      [CFLAGS="$CFLAGS -Werror"])
 
 GOBJECT_INTROSPECTION_CHECK([0.6.7])
 

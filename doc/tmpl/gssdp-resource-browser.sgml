@@ -145,3 +145,12 @@ GSSDPResourceBrowser
 @Returns: 
 
 
+<!-- ##### FUNCTION gssdp_resource_browser_rescan ##### -->
+<para>
+
+</para>
+
+@resource_browser: 
+@Returns: 
+
+

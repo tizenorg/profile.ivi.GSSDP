@@ -1,3 +1,63 @@
+0.14.2
+======
+
+- Fix memory leaks on initial interface search.
+- Make default interface detection a little bit smarter.
+
+All contributors to this release:
+  Krzesimir Nowak <krnowak@openismus.com>
+
+0.14.1
+======
+
+- Fix a crash on network announcements.
+
+Bugs fixed in this release:
+ - https://bugzilla.gnome.org/show_bug.cgi?id=694418
+
+All contributors to this release:
+  Krzesimir Nowak <krnowak@openismus.com>
+  Jussi Kukkonen <jussi.kukkonen@intel.com>
+
+0.14.0
+======
+- Don't use inet_netof to filter for correct source networks.
+- Add gssdp_resource_browser_rescan() function.
+- Allow custom TTL values for GSSDPClient.
+
+Bugs fixed in this release:
+ - https://bugzilla.gnome.org/show_bug.cgi?id=656406
+ - https://bugzilla.gnome.org/show_bug.cgi?id=668922
+ - https://bugzilla.gnome.org/show_bug.cgi?id=692516
+
+All contributors to this release:
+
+Jens Georg <mail@jensge.org>
+Krzesimir Nowak <krnowak@openismus.com>
+gnupnp <gnupnp@dorgby.net>
+
+0.13.2
+======
+- Fix implementation of GInitable such that _init() is callable multiple times
+  without breaking.
+- Really ignore invalid MAN headers.
+- Fix port reuse on NetBSD.
+- Allow non-sourcedir build from git.
+- Don't use -Werror by default.
+- Silence some deprecation warnings.
+
+Bugs fixed in this release:
+ - https://github.com/01org/media-service-upnp/issues/54
+ - https://bugzilla.gnome.org/show_bug.cgi?id=685949
+ - https://bugzilla.gnome.org/show_bug.cgi?id=682576
+ - https://bugzilla.gnome.org/show_bug.cgi?id=682308
+
+All contributors to this release:
+
+Jens Georg <mail@jensge.org>
+Theppitak Karoonboonyanan <thep@linux.thai.net>
+Matthias Drochner <M.Drochner@fz-juelich.de>
+
 0.13.1
 ======
 - Run introspection in make distcheck.

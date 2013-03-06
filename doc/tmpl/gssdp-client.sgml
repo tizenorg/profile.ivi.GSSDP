@@ -69,6 +69,11 @@ GSSDPClient
 
 </para>
 
+<!-- ##### ARG GSSDPClient:socket-ttl ##### -->
+<para>
+
+</para>
+
 <!-- ##### FUNCTION gssdp_client_new ##### -->
 <para>
 

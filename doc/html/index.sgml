@@ -28,6 +28,7 @@
 <ANCHOR id="GSSDPClient--main-context" href="gssdp/GSSDPClient.html#GSSDPClient--main-context">
 <ANCHOR id="GSSDPClient--network" href="gssdp/GSSDPClient.html#GSSDPClient--network">
 <ANCHOR id="GSSDPClient--server-id" href="gssdp/GSSDPClient.html#GSSDPClient--server-id">
+<ANCHOR id="GSSDPClient--socket-ttl" href="gssdp/GSSDPClient.html#GSSDPClient--socket-ttl">
 <ANCHOR id="GSSDPClient.signal-details" href="gssdp/GSSDPClient.html#GSSDPClient.signal-details">
 <ANCHOR id="GSSDPClient-message-received" href="gssdp/GSSDPClient.html#GSSDPClient-message-received">
 <ANCHOR id="GSSDPResourceBrowser" href="gssdp/GSSDPResourceBrowser.html">
@@ -47,6 +48,7 @@
 <ANCHOR id="gssdp-resource-browser-get-mx" href="gssdp/GSSDPResourceBrowser.html#gssdp-resource-browser-get-mx">
 <ANCHOR id="gssdp-resource-browser-set-active" href="gssdp/GSSDPResourceBrowser.html#gssdp-resource-browser-set-active">
 <ANCHOR id="gssdp-resource-browser-get-active" href="gssdp/GSSDPResourceBrowser.html#gssdp-resource-browser-get-active">
+<ANCHOR id="gssdp-resource-browser-rescan" href="gssdp/GSSDPResourceBrowser.html#gssdp-resource-browser-rescan">
 <ANCHOR id="GSSDPResourceBrowser.property-details" href="gssdp/GSSDPResourceBrowser.html#GSSDPResourceBrowser.property-details">
 <ANCHOR id="GSSDPResourceBrowser--active" href="gssdp/GSSDPResourceBrowser.html#GSSDPResourceBrowser--active">
 <ANCHOR id="GSSDPResourceBrowser--client" href="gssdp/GSSDPResourceBrowser.html#GSSDPResourceBrowser--client">
