@@ -24,9 +24,9 @@
 #include <stdlib.h>
 
 static void
-resource_available_cb (GSSDPResourceBrowser *resource_browser,
-                       const char           *usn,
-                       GList                *locations)
+resource_available_cb (G_GNUC_UNUSED GSSDPResourceBrowser *resource_browser,
+                       const char                         *usn,
+                       GList                              *locations)
 {
         GList *l;
 
@@ -39,8 +39,8 @@ resource_available_cb (GSSDPResourceBrowser *resource_browser,
 }
 
 static void
-resource_unavailable_cb (GSSDPResourceBrowser *resource_browser,
-                         const char           *usn)
+resource_unavailable_cb (G_GNUC_UNUSED GSSDPResourceBrowser *resource_browser,
+                         const char                         *usn)
 {
         g_print ("resource unavailable\n"
                  "  USN:      %s\n",
@@ -48,8 +48,8 @@ resource_unavailable_cb (GSSDPResourceBrowser *resource_browser,
 }
 
 int
-main (int    argc,
-      char **argv)
+main (G_GNUC_UNUSED int    argc,
+      G_GNUC_UNUSED char **argv)
 {
         GSSDPClient *client;
         GSSDPResourceBrowser *resource_browser;
