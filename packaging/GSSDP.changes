@@ -1,3 +1,6 @@
+* Mon Jul 15 22:40:52 UTC 2013 - tracy.graydon@intel.com
+- Stripped out the old yaml stuff from spec 
+
 * Tue Jun 11 2013 Regis Merlino <regis.merlino@intel.com>
 - Update gssdp to 0.14.3 (e2f1b0d)
 
