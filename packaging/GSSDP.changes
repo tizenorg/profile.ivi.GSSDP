@@ -1,3 +1,6 @@
+* Wed Aug 21 2013 Regis Merlino <regis.merlino@intel.com>
+- Update gssdp to 0.14.4 (3d21abc) 
+
 * Mon Jul 15 22:40:52 UTC 2013 - tracy.graydon@intel.com
 - Stripped out the old yaml stuff from spec 
 

@@ -64,5 +64,7 @@
     <keyword type="property" name="The &quot;message-delay&quot; property" link="GSSDPResourceGroup.html#GSSDPResourceGroup--message-delay"/>
     <keyword type="macro" name="GSSDP_ERROR" link="gssdp-Error-codes.html#GSSDP-ERROR:CAPS"/>
     <keyword type="enum" name="enum GSSDPError" link="gssdp-Error-codes.html#GSSDPError"/>
+    <keyword type="constant" name="GSSDP_ERROR_NO_IP_ADDRESS" link="gssdp-Error-codes.html#GSSDP-ERROR-NO-IP-ADDRESS:CAPS"/>
+    <keyword type="constant" name="GSSDP_ERROR_FAILED" link="gssdp-Error-codes.html#GSSDP-ERROR-FAILED:CAPS"/>
   </functions>
 </book>

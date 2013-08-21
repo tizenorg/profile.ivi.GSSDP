@@ -1,6 +1,6 @@
 Name:       gssdp
 Summary:    GSSDP implements resource discovery and announcement over SSDP
-Version:    0.14.3
+Version:    0.14.4
 Release:    1
 Group:      System/Libraries
 License:    LGPLv2+

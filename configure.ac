@@ -1,6 +1,6 @@
 AC_PREREQ([2.64])
 AC_INIT([gssdp],
-        [0.14.3],
+        [0.14.4],
         [http://bugzilla.gnome.org/enter_bug.cgi?product=gupnp&component=gssdp],
         [gssdp],
         [http://www.gupnp.org/])
@@ -12,6 +12,8 @@ AC_CONFIG_AUX_DIR([build-aux])
 
 AM_INIT_AUTOMAKE([1.11 tar-ustar no-dist-gzip dist-xz])
 AM_MAINTAINER_MODE([enable])
+
+GNOME_COMPILE_WARNINGS
 
 AM_SILENT_RULES([yes])
 

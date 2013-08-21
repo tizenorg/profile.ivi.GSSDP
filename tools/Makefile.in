@@ -233,6 +233,7 @@ SHELL = @SHELL@
 STRIP = @STRIP@
 VAPIGEN = @VAPIGEN@
 VERSION = @VERSION@
+WARN_CFLAGS = @WARN_CFLAGS@
 abs_builddir = @abs_builddir@
 abs_srcdir = @abs_srcdir@
 abs_top_builddir = @abs_top_builddir@
