@@ -15,6 +15,8 @@ BuildRequires:  pkgconfig(glib-2.0)
 BuildRequires:  pkgconfig(libxml-2.0)
 BuildRequires:  pkgconfig(gconf-2.0)
 BuildRequires:  pkgconfig(libsoup-2.4)
+BuildRequires:  gobject-introspection-devel
+BuildRequires:  vala
 
 
 %description
@@ -58,3 +60,7 @@ rm -rf %{buildroot}
 %{_libdir}/*.so
 %{_libdir}/pkgconfig/gssdp-1.0.pc
 %{_includedir}/gssdp-1.0
+%{_libdir}/girepository-1.0/GSSDP-1.0.typelib
+%{_datadir}/gir-1.0/GSSDP-1.0.gir
+%{_datadir}/vala/vapi/gssdp-1.0.deps
+%{_datadir}/vala/vapi/gssdp-1.0.vapi
